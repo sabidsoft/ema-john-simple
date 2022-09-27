@@ -1,0 +1,38 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.oreder_summary{
+    color: #1C2B35;
+    text-align: center;
+    font-size: 25px;
+    margin: 28px 0;
+}
+.cart_info{
+    margin: 0 24px;
+}
+.cart_info_text{
+    color: #2A414F;
+    font-size: 17px;
+}
+.grand_total{
+    color: #0E161A;
+    font-size: 21px;
+}
+.btn_container{
+    text-align: center;
+    margin-top: 60px;
+}
+.btn_clear_cart, .btn_review_order{
+    width: 90%;
+    margin-bottom: 16px;
+    padding: 16px 0;
+    color: #FFF;
+    background-color: #FF3030;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+}
+.btn_review_order{
+    background-color: #FF9900;
+}
