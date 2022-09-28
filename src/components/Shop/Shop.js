@@ -38,7 +38,7 @@ const Shop = () => {
             selectedProduct.quantity = 1
             newCart = [...cart, selectedProduct]
         }
-        
+
         setCart(newCart)
         addToDb(selectedProduct.id)
         
